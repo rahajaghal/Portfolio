@@ -323,17 +323,19 @@ body{
     color: transparent;
 
 }
+
 .exp-section {
     width: 810px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
     color: white;
 }
 .section {
     margin-top: 50px;
+    grid-row: span 1;
+    grid: span 1;
 }
 
 .section-header {
